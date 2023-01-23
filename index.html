@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <!--CSS Externo-->
+  <link rel="stylesheet" href="style.css">
+  <!--BootsTrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="eventos">
+    <input type="button" onclick="ocultar()" value="OCULTAR">
+    <input type="button" onclick="resetElement()" value="MOSTRAR">
+  </div>
+  <!--2 Div Mostrar-->
+  <div id="mostrar">
+    <!--1 Div Ocultar-->
+    <div id="ocultar">
+      <h1 class="changecolor2">Neil Shelton</h1>
+      <!--Pagina Principal Prensentacion Datos-->
+      <div class="box-1" class="row">
+        <header class="col-3 col-s-3 menu">
+          <h2>Acerca de mi</h2>
+          <nav class="datos-1">
+            <!--Datos-->
+            <p>Nombre: Neil</p>
+            <p>Apellido: Shelton</p>
+            <p>Edad: 28 años</p>
+            <p>Ubicacion: Argentina - CABA</p>
+            <!--Imagen Propia-->
+            <img src="images/01-guille.jpg" alt="fotodeguille" width="150px" height="150px">
+          </nav>
+        </header>
+      </div>
+      <!--Pagina 2 Habilidades-->
+      <div class="box-2" class="col-3 col-s-9 menu">
+        <section class="habilidades-1">
+          <ul class="habilidades--1">
+            <h2>Hard - Skills</h2>
+            <li>
+              <p>Conocimientos Informáticos</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p>IT skills</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p>Aptitudes Técnicas: (Microsoft Office, Word, Excel)</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="box-3" class="col-3 col-s-12 menu">
+        <section class="habilidades-2">
+          <ul class="habilidades--2">
+            <h2>Educación</h2>
+            <li>
+              <h3>Universidad de Ticmas</h3>
+              <p>Me encuentro actualmente (2023) en el 3 año de la Carrera de Sistemas.</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h3>Técnicatura en Sistemas</h3>
+              <p>Me recibi de la Técnicatura de Sistemas en el año 2012.</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h3>Reparador de PC</h3>
+              <p>Reparo computadoras desde hace 10 años, con clientes frecuentes y nuevos, siempre dejandolos
+                satisfechos!.</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <!--Pagina 3 Un poco de mi-->
+      <div class="box-4">
+        <h3>Experiencia Laboral</h3>
+        <p>Actualmente no cuento con experiencia laboral.
+          Estoy con <span>muchas ganas</span> de trabajar en aquella empresa IT que requiera de mis
+          conocimientos.
+        </p>
+      </div>
+      <!--Pagina 4 - Enviar CV-->
+      <div class="box-5">
+        <p>Descargue el CV en <strong><a class="nonedeco" href="cvdeticmas.pdf" download="curriculum-vitae">Formato
+              PDF</a></strong>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--JS Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!--JS Externo-->
+  <script src="app.js"></script>
+</body>
+
+</html>
